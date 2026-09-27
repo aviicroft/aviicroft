@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="54" viewBox="0 0 1200 54">
+  <rect width="1200" height="54" fill="none"/>
+  <g font-family="monospace" font-size="10">
+    <text x="20" y="31" fill="#5d7787">[ DATA STREAM ]</text>
+    <path d="M150 27H1080" stroke="#183b4e" stroke-width="1"/>
+    <path d="M150 27H1080" stroke="#00e5ff" stroke-width="2" stroke-dasharray="70 860" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-930" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <text x="1100" y="31" fill="#59ff9a">SCAN // OK</text>
+  </g>
+</svg>

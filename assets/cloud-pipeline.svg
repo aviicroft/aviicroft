@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+      <title id="title">Cloud Infrastructure Pipeline</title>
+      <desc id="desc">Animated cybersecurity themed visualization for Avinash K</desc>
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#03060b"/>
+          <stop offset="55%" stop-color="#07111d"/>
+          <stop offset="100%" stop-color="#020305"/>
+        </linearGradient>
+        <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#00e5ff"/>
+          <stop offset="100%" stop-color="#4df7ff"/>
+        </linearGradient>
+        <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ff244f"/>
+          <stop offset="100%" stop-color="#ff5c7a"/>
+        </linearGradient>
+        <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0H0V40" fill="none" stroke="#153043" stroke-width="0.7" opacity=".55"/>
+          <circle cx="0" cy="0" r="1" fill="#00e5ff" opacity=".35"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+      <rect x="12" y="12" width="1176" height="396" rx="16" fill="url(#grid)" opacity=".9"/>
+      <rect x="12" y="12" width="1176" height="396" rx="16" fill="none" stroke="#1b4054" stroke-width="1"/>
+
+  <g font-family="monospace">
+    <text x="60" y="55" fill="#00e5ff" font-size="14" letter-spacing="3">CLOUD // INFRASTRUCTURE</text>
+    <text x="60" y="78" fill="#5d7787" font-size="11">CODE → GIT → CI/CD → DOCKER → LINUX → AWS EC2 → PRODUCTION</text>
+  </g>
+  <g stroke="#24465a" stroke-width="2" fill="none">
+    <path d="M130 210H270M330 210H470M530 210H670M730 210H870M930 210H1070"/>
+  </g>
+  <g stroke="#00e5ff" stroke-width="4" stroke-linecap="round">
+    <path d="M130 210H270"><animate attributeName="stroke-dasharray" values="0 140;60 80;140 0" dur="2.5s" repeatCount="indefinite"/></path>
+    <path d="M330 210H470"><animate attributeName="stroke-dasharray" values="0 140;60 80;140 0" dur="2.7s" repeatCount="indefinite"/></path>
+    <path d="M530 210H670"><animate attributeName="stroke-dasharray" values="0 140;60 80;140 0" dur="2.9s" repeatCount="indefinite"/></path>
+    <path d="M730 210H870"><animate attributeName="stroke-dasharray" values="0 140;60 80;140 0" dur="3.1s" repeatCount="indefinite"/></path>
+    <path d="M930 210H1070"><animate attributeName="stroke-dasharray" values="0 140;60 80;140 0" dur="3.3s" repeatCount="indefinite"/></path>
+  </g>
+  <g fill="#06121b" stroke="#00e5ff" stroke-width="2">
+    <rect x="70" y="170" width="120" height="80" rx="10"/><rect x="270" y="170" width="120" height="80" rx="10"/>
+    <rect x="470" y="170" width="120" height="80" rx="10"/><rect x="670" y="170" width="120" height="80" rx="10"/>
+    <rect x="870" y="170" width="120" height="80" rx="10"/><rect x="1010" y="170" width="120" height="80" rx="10"/>
+  </g>
+  <g font-family="monospace" text-anchor="middle" font-size="11" fill="#d9f5ff">
+    <text x="130" y="205">CODE</text><text x="330" y="205">GIT</text><text x="530" y="205">CI/CD</text>
+    <text x="730" y="205">DOCKER</text><text x="930" y="205">LINUX</text><text x="1070" y="205">AWS EC2</text>
+  </g>
+  <text x="600" y="320" text-anchor="middle" font-family="monospace" font-size="12" fill="#59ff9a">
+    PRODUCTION PIPELINE: OPERATIONAL
+    <animate attributeName="opacity" values=".45;1;.45" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+    </svg>
